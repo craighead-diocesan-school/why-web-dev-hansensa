@@ -1,8 +1,22 @@
-<h1>Other Coding Careers</h1>
-<a href="index.html"> Home </a>
+<!doctype html>
+<head>
+    <meta charset="UTF-8">
+    <title> Your website </title>
+    <link rel="icon" href="favicon.ico">
+  </head>
+<body>
+    <header>
+      <h1>Other Coding Careers</h1>
+    </header>
+  
+    <nav>
+      <a href="index.html"> Home </a>
 <a href="opportunities.html"> Web Dev Opportunities </a>
 <a href="other-careers.html"> Other Coding Careers </a>
-<p>Some of them:</p>
+    </nav>
+  
+    <main>
+      <p>Some of them:</p>
 <ul>
     <li> Application developer</li>
     <li>Server engineer</li>
@@ -12,6 +26,22 @@
     <li>Artificial intelligence researcher</li>
     <li>Cyber security consultant (hacker)</li>
 </ul>
+    </main>
+    <style>
+        body {
+          display: grid;
+          grid: " h    h    h  " 8em
+                " .    n    n  " 4em
+                " .    m    .  " 19em
+                " f    f    f  " auto
+                /5em   auto  auto;
+        }
+      
+        header { grid-area: h; }
+        nav    { grid-area: n; }
+        main   { grid-area: m; }
+        footer { grid-area: f; }
+      </style>
 <style>
     * {
         font-family: sans-serif;
@@ -31,6 +61,7 @@
         background-color: lightblue;
         text-shadow: 1.5px 1.5px rgb(87, 3, 255);
         border-style: outset;
+        font-size: 60px;
     }
 
     a:hover {
@@ -39,5 +70,6 @@
     }
 </style>
 <footer>
-    <p> &copy; Samantha Hansen, Craighead Diocesan School, 2025</p>
-</footer>
+       <p> &copy; Samantha Hansen, Craighead Diocesan School, 2025</p>
+    </footer>
+</body>
