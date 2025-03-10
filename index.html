@@ -1,8 +1,10 @@
 <!doctype html>
+<html>
+
 <head>
   <meta charset="UTF-8">
-  <title> Your website </title>
-  <link rel="icon" href="favicon.ico">
+  <title> Why Web Dev </title>
+  <link rel="icon" href="index.html">
 </head>
 <body>
   <header>
@@ -15,9 +17,11 @@
 <a href="opportunities.html"> Web Dev Opportunities </a>
 <a href="other-careers.html"> Other Coding Careers </a>
   </nav>
-<head>
-  <img src="html-logo.svg.svg">
-</head>
+<header>
+  <div><img src="html-logo.svg.svg">
+ <img src="why web.png">
+</div>
+</header>
   <main>
 <p>
   There are plenty of way to learn coding, but here are some reasons why we focus on web dev.
@@ -35,17 +39,18 @@
   <style>
     body {
       display: grid;
-      grid: " h    h    h  " 8em
-            " .    n    n  " 4em
-            " .    m    .  " 19em
-            " f    f    f  " auto
-            /5em   auto  auto;
+      grid: " h    h    h   h  " 8em
+            " d    n    n   .  " 4em
+            " d    m    m   .  " 19em
+            " f    f    f   f  " auto
+            /5em auto auto auto;
     }
   
     header { grid-area: h; }
     nav    { grid-area: n; }
     main   { grid-area: m; }
     footer { grid-area: f; }
+    div {grid-area: d;}
   </style>
 <style>
   * {
@@ -86,3 +91,4 @@
     <p> &copy; Samantha Hansen, Craighead Diocesan School, 2025</p>
   </footer>
 </body>
+</html>
